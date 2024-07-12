@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+  <div class="navbuttons">
+    <a href="index.html">
+      <button>Home</button>
+    </a>
+    <a href="fin_lit.html">
+      <button>Financial literacy</button>
+    </a>
+    </a>
+    <div class="dropdown">
+      <button class="dropbtn">Opportunities</button>
+      <div class="dropdown-content">
+        <a href="opps_stem.html">STEM</a>
+        <a href="opps_art.html">Art</a>
+        <a href="opps_humanities.html">Humanities</a>
+      </div>
+    </div>
+    </a>
+    <a href="productivity.html">
+      <button>Productivity</button>
+    </a>
+    <a href="career_prep.html">
+      <button>Career-Prep</button>
+    </a>
+  </div>
+  <h1>
+    <center>Financial Literacy</center>
+  </h1>
+  <div class="finlitdiv">
+    <div class="study">
+      <div class="howto">
+        <h2><center>How To:</center></h2>
+        <a href="https://www.wikihow.com/Open-a-Bank-Account"><center>Get a bank account</center></a>
+        <br>
+        <a href="https://www.wikihow.com/Pay-Your-Bills"><center>Pay bills</center></a>
+        <br>
+        <a href="https://www.wikihow.life/Get-a-Credit-Card"><center>Get a credit card</center></a>
+        <br>
+        <a href="https://www.wikihow.life/Get-a-Debit-Card"><center>Get a debit card</center></a>
+        <br>
+        <a href="https://www.wikihow.com/File-Taxes"><center>File taxes</center></a>
+      </div>
+      <div class=mresources>
+        <a href="https://dfi.wa.gov/financial-education/information/budgeting">
+          <button>More resources</button>
+        </a>
+        <a href="https://www.nerdwallet.com/article/finance/how-to-budget">
+          <button>Budgeting Plans</button>
+        </a>
+      </div>
+    </div>
+    <div class="comp">
+      <div class=budgeting>
+        <h2>Budgeting</h2>
+        <p>Consider: How much do spend on the following?</p>
+        <p>Food</p>
+        <p>Transportation</p>
+        <p>Entertainment</p>
+        <p>Housing</p>
+      </div>
+      <div class=calculator>
+        <form>
+          <h2>Budget Calculator</h2>
+          <input placeholder="Monthly income ($)" type="number" class="inc" id='inc'>
+        </form>
+        <button class="calc" id='calc'> Calculate!</button>
+        <p id='message'></p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
