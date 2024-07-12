@@ -18,7 +18,7 @@
 Accessibility
 - Lack of real world skills taught in school 
 - Education gap in underfunded districts 
-- Goal: provide equitable access to resources
+- Goal: provide equitable access to resources<br>
 Learning
 - Easy, stress-free way
 - Reduce fear and uncertainty
@@ -41,6 +41,6 @@ Learning
 
 ## Contributors
 
-**Tanvi Garg**
-**Anjalee Rasathur**
-**Smitha Pasumart**
+**Tanvi Garg**<br>
+**Anjalee Rasathur**<br>
+**Smitha Pasumart**<br>
